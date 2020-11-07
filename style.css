@@ -1,0 +1,119 @@
+body, html{
+    margin:0;
+    height:100%;
+    font-family:"Serif";
+    font-size:16px;
+    line-height:1.4em;
+    font-weight:400;
+    color:#666;
+}
+
+.p1img, .p2img, .p3img, .p4img, .p5img, .p6img,
+.p7img, .p8img, .p9img, .p10img{
+    position:relative;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    /*opacity:0.80;*/
+}
+
+.p1img{
+    background-image: url("../Demo Parallax/images/1.jpg");
+    min-height:100%;
+}
+
+.p2img{
+    background-image: url("../Demo Parallax/images/2.jpg");
+    min-height:800px;
+}
+
+.p3img{
+    background-image: url("../Demo Parallax/images/3.jpg");
+    min-height:800px;
+}
+
+.p4img{
+    background-image: url("../Demo Parallax/images/4.jpg");
+    min-height:800px;
+}
+
+.p5img{
+    background-image: url("../Demo Parallax/images/5.jpg");
+    min-height:800px;
+}
+
+.p6img{
+    background-image: url("../Demo Parallax/images/6.jpg");
+    min-height:800px;
+}
+
+.p7img{
+    background-image: url("../Demo Parallax/images/7.jpg");
+    min-height:800px;
+}
+
+.p8img{
+    background-image: url("../Demo Parallax/images/8.jpg");
+    min-height:800px;
+}
+
+.p9img{
+    background-image: url("../Demo Parallax/images/9.jpg");
+    min-height:800px;
+}
+
+.p10img{
+    background-image: url("../Demo Parallax/images/10.jpg");
+    min-height:800px;
+}
+
+.p-text{
+    text-align:center;
+    text-transform:uppercase;
+    position:absolute;
+    top:50%;
+    width:100%;
+    color:whitesmoke;
+    letter-spacing:8px;
+    font-size:24px;
+}
+
+.p-text .border{
+    background:#333;
+    padding:20px;
+}
+
+.section{
+    text-align:center;
+    padding:40px 60px;
+}
+
+.section-dark{
+    background:#333;
+    color:whitesmoke;
+}
+
+.section-white{
+    background:#f4f4f4;
+    color:#333;
+}
+
+footer{
+    background:#333;
+    text-align:center;
+    color:#f4f4f4;
+    padding:20px;
+}
+
+.p-text .border.trans{
+    background-color:transparent;
+}
+
+@media(max-width:768px){
+    .p1img, .p2img, .p3img, .p4img, .p5img, .p6img,
+    .p7img, .p8img, .p9img, .p10img{
+        background-attachment: scroll;
+    } 
+}
+
