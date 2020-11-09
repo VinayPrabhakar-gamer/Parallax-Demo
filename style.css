@@ -19,52 +19,52 @@ body, html{
 }
 
 .p1img{
-    background-image: url("../Demo Parallax/images/1.jpg");
+    background-image: url("./images/1.jpg");
     min-height:100%;
 }
 
 .p2img{
-    background-image: url("../Demo Parallax/images/2.jpg");
+    background-image: url("./images/2.jpg");
     min-height:800px;
 }
 
 .p3img{
-    background-image: url("../Demo Parallax/images/3.jpg");
+    background-image: url("./images/3.jpg");
     min-height:800px;
 }
 
 .p4img{
-    background-image: url("../Demo Parallax/images/4.jpg");
+    background-image: url("./images/4.jpg");
     min-height:800px;
 }
 
 .p5img{
-    background-image: url("../Demo Parallax/images/5.jpg");
+    background-image: url("./images/5.jpg");
     min-height:800px;
 }
 
 .p6img{
-    background-image: url("../Demo Parallax/images/6.jpg");
+    background-image: url("./images/6.jpg");
     min-height:800px;
 }
 
 .p7img{
-    background-image: url("../Demo Parallax/images/7.jpg");
+    background-image: url("./images/7.jpg");
     min-height:800px;
 }
 
 .p8img{
-    background-image: url("../Demo Parallax/images/8.jpg");
+    background-image: url("./images/8.jpg");
     min-height:800px;
 }
 
 .p9img{
-    background-image: url("../Demo Parallax/images/9.jpg");
+    background-image: url("./images/9.jpg");
     min-height:800px;
 }
 
 .p10img{
-    background-image: url("../Demo Parallax/images/10.jpg");
+    background-image: url("./images/10.jpg");
     min-height:800px;
 }
 
