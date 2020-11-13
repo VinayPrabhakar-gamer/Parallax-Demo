@@ -110,10 +110,140 @@ footer{
     background-color:transparent;
 }
 
-@media(max-width:768px){
+/* MobileS */
+@media(max-width: 320px){
+    .p-text{
+        font-size: 12px;
+    }
+
+    .section{
+        text-align: left;
+        padding:40px 20px;
+    }
+
     .p1img, .p2img, .p3img, .p4img, .p5img, .p6img,
     .p7img, .p8img, .p9img, .p10img{
         background-attachment: scroll;
-    } 
+    }
 }
 
+/* MobileM */
+@media screen and (device-width: 375px) and (device-height: 491px){
+    .p-text{
+        font-size: 12px;
+    }
+
+    .section{
+        text-align: left;
+        padding:40px 20px;
+    }
+
+    .p1img, .p2img, .p3img, .p4img, .p5img, .p6img,
+    .p7img, .p8img, .p9img, .p10img{
+        background-attachment: scroll;
+    }
+}
+
+/* Tablet */
+@media(max-width:768px) and (min-width: 425px){
+    /* .p1img, .p2img, .p3img, .p4img, .p5img, .p6img,
+    .p7img, .p8img, .p9img, .p10img{
+        background-attachment: scroll;
+    }  */
+}
+
+/* 4K */
+@media(min-width: 1600px){
+    body{
+        font-size: 2.4rem;
+    }
+
+    .p-text{
+        font-size: 4.6rem;
+    }
+}
+
+/* MOTO G */
+@media screen and (device-width: 360px) and (device-height: 640px){
+    .p-text{
+        font-size: 14px;
+    }
+
+    .section{
+        text-align: left;
+        padding:40px 20px;
+    }
+}
+
+/* Iphone 6,7,8*/
+@media screen and (device-width: 375px) and (device-height: 667px){
+    .p-text{
+        font-size: 14px;
+    }
+
+    .section{
+        text-align: left;
+        padding:40px 20px;
+    }
+}
+
+@media screen and (device-width: 414px) and (device-height: 736px){
+    .p-text{
+        font-size: 14px;
+    }
+
+    .section{
+        text-align: left;
+        padding:40px 20px;
+    }
+}
+
+@media screen and (device-width: 375px) and (device-height: 812px){
+    .p-text{
+        font-size: 14px;
+    }
+
+    .section{
+        text-align: left;
+        padding:40px 20px;
+    }
+}
+
+/* Ipad */
+@media screen and (device-width: 768px) and (device-height: 1024px){
+    body{
+        font-size: 1.6rem;
+    }
+
+    .p-text{
+        font-size: 2.2rem;
+    }
+}
+
+/* Ipad Pro */
+@media screen and (device-width: 1024px) and (device-height: 1366px){
+    body{
+        font-size: 2rem;
+    }
+
+    .p-text{
+        font-size: 3rem;
+    }
+}
+
+/* Galaxy Fold */
+
+@media screen and (device-width: 280px) and (device-height: 653px){
+    .p-text{
+        font-size: 10px;
+    }
+
+    .section{
+        text-align: left;
+        padding:40px 20px;
+    }
+
+    body{
+        font-size: 0.8rem;
+    }
+}
